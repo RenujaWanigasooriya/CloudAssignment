@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC University Student Records</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            margin: 20px;
+            text-align: center;
+        }
+        button {
+            background-color: #004080;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>ABC University</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Records</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="welcome">
+        <h2>Welcome to the Student Records System</h2>
+        <p>Access your student records, admissions status, and more.</p>
+        <button id="recordsBtn">View My Records</button>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 ABC University</p>
+</footer>
+
+<script>
+        document.getElementById('recordsBtn').addEventListener('click', () => {
+            alert('This feature is coming soon!');
+        });
+    </script>
+</body>
+</html>
